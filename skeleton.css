@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.container {
+  width: 1224px;
+  height: 64px;
+  background-color: #ececec;
+  left: 90px;
+  right: 90px;
+  /* top: 124px; */
+  position: relative;
+}
+.backgroundgrey {
+  margin-left: 10px;
+}
+.section-title {
+  line-height: 36px;
+  size: 30px;
+  font-weight: 300;
+  margin-top: 10px;
+}
+.btnprimarydarkgrey {
+  width: 36px;
+  height: 64px;
+  float: right;
+  background-color: #bcbcbc;
+  border: transparent;
+}
+.section-title p {
+  font-size: 17px;
+  line-height: 24px;
+  width: 1230px;
+  height: 48px;
+  margin-top: 3pc;
+}
+.content {
+  width: auto;
+}
+.linebyline {
+  width: 400px;
+  height: 566px;
+  float: left;
+  margin-top: 2pc;
+  border: 1px solid transparent;
+  background: #f9f9f9;
+}
+.CopyandPaste,
+.Uploadafile {
+  width: 400px;
+  height: 564px;
+  float: left;
+  margin-top: 2pc;
+  border: 1px solid transparent;
+  background: #f9f9f9;
+  margin-left: 10px;
+}
+.contentsection-subtitle {
+  margin-top: 18px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-left: 10px;
+}
+.contentpargraph-section {
+  margin-left: 10px;
+  margin-top: 17px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.form {
+  margin-right: 5px;
+  margin-top: 10px;
+}
+.inpqty input {
+  width: 65px;
+  height: 40px;
+}
+.inputmaterials input {
+  width: 212px;
+  height: 40px;
+  margin-left: 5px;
+}
+.inputgrade input {
+  width: 88px;
+  height: 40px;
+  margin-left: 5px;
+}
+.giveinput {
+  display: flex;
+  margin: 25px 10px;
+}
+.btnsecondryblue {
+  margin-left: 10px;
+  width: 189px;
+  height: 28px;
+  color: #336699;
+  border-radius: 5px;
+  border: 2px solid #336699;
+  border-color: #336699;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.copypastecontainer {
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.downloadclrblue {
+  float: right;
+}
+.addtocart {
+  float: right;
+  margin-top: 25px;
+}
+.contentchoose-file {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.selectcsvfile {
+  margin-left: 3px;
+  margin-top: 10px;
+}
