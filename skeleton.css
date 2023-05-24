@@ -3,22 +3,21 @@
   margin: 0;
 }
 .container {
-  width: 1224px;
-  height: 64px;
-  background-color: #ececec;
-  left: 90px;
-  right: 90px;
-  /* top: 124px; */
-  position: relative;
+  max-width: 1224px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .backgroundgrey {
   margin-left: 10px;
 }
 .section-title {
-  line-height: 36px;
-  size: 30px;
+  line-height: 64px;
+  font-size: 30px;
   font-weight: 300;
   margin-top: 10px;
+}
+h2 {
+  background-color: #ececec;
 }
 .btnprimarydarkgrey {
   width: 36px;
@@ -34,12 +33,13 @@
   height: 48px;
   margin-top: 3pc;
 }
-.content {
+.content::after {
+  clear: both;
   width: auto;
+ 
 }
 .linebyline {
-  width: 400px;
-  height: 566px;
+  max-width: 400px;
   float: left;
   margin-top: 2pc;
   border: 1px solid transparent;
@@ -47,7 +47,7 @@
 }
 .CopyandPaste,
 .Uploadafile {
-  width: 400px;
+  max-width: 400px;
   height: 564px;
   float: left;
   margin-top: 2pc;
